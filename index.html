@@ -12,6 +12,9 @@
   </head>
   <body>
     <div class="container">
+        <div class="reset-button">
+            <ion-icon name="refresh-circle-outline" class="reset"></ion-icon>
+        </div>
       <div class="team card-flexbox">
         <p class="home-team">Home</p>
         <p class="away-team">Away</p>
@@ -26,17 +29,19 @@
       </div>
       <div class="card-flexbox">
         <div class="home-team--btns">
-          <button class="btn-one btn-style">+1</button>
-          <button class="btn-two btn-style">+2</button>
-          <button class="btn-three btn-style">+3</button>
+          <button class="btn-one btn-style" onclick="increaseHomeScorebyOne()">+1</button>
+          <button class="btn-two btn-style" onclick="increaseHomeScorebyTwo()">+2</button>
+          <button class="btn-three btn-style" onclick="increaseHomeScorebyThree()">+3</button>
         </div>
         <div class="away-team--btns">
-          <button class="btn-one btn-style">+1</button>
-          <button class="btn-two btn-style">+2</button>
-          <button class="btn-three btn-style">+3</button>
+          <button class="btn-one btn-style" onclick="increaseAwayScorebyOne()">+1</button>
+          <button class="btn-two btn-style" onclick="increaseAwayScorebyTwo()">+2</button>
+          <button class="btn-three btn-style" onclick="increaseAwayScorebyThree()">+3</button>
         </div>
       </div>
     </div>
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
