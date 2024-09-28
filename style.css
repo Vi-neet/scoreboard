@@ -6,6 +6,9 @@ body {
   overflow: hidden;
   font-family: "Cursed Timer ULiL", sans-serif;
   color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -16,10 +19,10 @@ body {
   border-radius: 5px;
   border: 5px solid #fff;
   border-style: double;
+  position: relative;
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.31);
 }
 .card-flexbox {
-  display: inline-block;
   display: flex;
   justify-content: space-evenly;
 }
@@ -68,4 +71,15 @@ body {
 }
 .btn-style:active {
   box-shadow: 0 0 0;
+}
+.reset {
+  font-size: 4rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.reset-button {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
