@@ -3,8 +3,6 @@ html {
 }
 body {
   background-color: #1b244a;
-  background-size: 250vh 150vh;
-  background-repeat: no-repeat;
   overflow: hidden;
   font-family: "Cursed Timer ULiL", sans-serif;
   color: #fff;
